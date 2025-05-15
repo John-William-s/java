@@ -1,0 +1,41 @@
+scanner is in java.util paclage
+
+a package is a container which can hold similar content of functions, interfaces, classes or method
+
+util, lang net are all built in packages, 
+
+package which is defined by the user is called user-defined packages
+
+string is a sequence of characters but in java string is an object that represents a sequence of character
+
+the java.lang.String class is used to create a string object
+
+How to create a string object?
+
+1. By string literal - using double quotes"  eg- String s = "Java"
+2. Bynew keyword - String s = new String("abc")
+
+each time you create a string literal the JVM checks the string constant pool if the string already exists int he pool reference to the pooled instance is returned. If the string does not exist in the pool a new string instance is created and placed in the pool.
+
+Using new keyword JVM will create a new String object in normal heap memory and the literal abc is placed in the string condstant pool the variable "s" will refer to the object in a heap 
+
+CHAR SEQUENCE INTERFACE
+
+It is an interface which is available in java.lang package. This interface enables flexible and implementation independent text processing across java pplatform. 
+
+Different string handling classes
+
+1. String
+2. String Buffer
+3. String BUilder
+
+these are used for string building, manipulation... etc
+
+String class encapsulates a series of character once instantiated a string objects content is fixed ANd cannot be modified (immutable) using string pre defined class
+
+This immutability ensures that the string objects are safe.
+
+String s = "Java"
+String s = new String("abc")
+
+
